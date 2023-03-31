@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/bootstrap.min.css" media="screen">
+    <link rel="stylesheet" href="styles/styles.css" media="screen">
+    <title>Partner Page</title>
+    <style>
+        .app_service_item {
+            border: 2px solid #28a745;
+        }
+        .app_service_item:hover, .app_service_item:focus {
+            background: #efefef;
+        }
+        .bg-globe {
+            background: url(img/map.png) center no-repeat; background-size: auto 100%; margin-bottom:20px;
+        }
+        .lead > strong {
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+<header class="header_area navbar_fixed">
+    <nav class="navbar navbar-expand-lg menu_one menu_four">
+        <div id="menu-container" class="menu-container container-fluid" style="padding-left:26px; padding-right:50px;">
+            <a style="margin-top:4px; margin-right:0px;" class="navbar-brand sticky_logo" href="/">
+                <img class="navbar-logo" src="img/ss_logo_60_343.png" srcset="img/ss_logo_120_686.png 2x" alt="logo">
+                <img class="navbar-logo" src="img/ss_logo_dark_60_343.png" srcset="img/ss_logo_dark_120_686.png 2x" alt=""></a>
+            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="menu_toggle"> <span class="hamburger"> <span></span>
+							<span></span> <span></span>
+					</span> <span class="hamburger-cross"> <span></span> <span></span>
+					</span>
+					</span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul style="padding-left:30px;" class="navbar-nav menu w_menu pl_100 ml-auto">
+
+                    <li id="features-menu" class="d-lg-none d-xl-block nav-item dropdown submenu">
+                        <a class="nav-link" href="/features/">Features </a>
+                    </li>
+                    <li id="solutions-menu" class="dropdown submenu nav-item"><a title="Solutions" class="dropdown-toggle nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">Solutions</a>
+                        <ul role="menu" class=" dropdown-menu">
+                            <li class="nav-item"><a title="Secure Email" class="nav-link" href="/email-security/">Secure Email</a></li>
+                            <li class="nav-item"><a title="Help Desk Integrations" class="nav-link" href="/help-desk-integrations/">Help Desk Integrations</a></li>
+                            <li class="nav-item"><a title="Secure File Exchange" class="nav-link" href="/secure-file-transfer/">Secure File Exchange</a></li>
+                            <li class="nav-item"><a title="SendSafely Dropzone" class="nav-link" href="/dropzone/">SendSafely Dropzone</a></li>
+                            <li class="nav-item"><a title="SendSafely Developer API" class="nav-link" href="/developer-api/">Developer API</a></li>
+                        </ul>
+                    </li>
+                    <li id="pricing-menu" class="nav-item dropdown submenu"><a class="nav-link" href="/pricing/">Pricing </a></li>
+                    <li id="howitworks-menu" class="nav-item dropdown submenu"><a class="nobr nav-link" href="/howitworks/">How it Works </a></li>
+
+                    <li id="partners-menu" class="d-lg-none d-xl-block nav-item dropdown submenu">
+                        <a class="nav-link" href="/partners/">Partners </a>
+                    </li>
+                    <li id="blog-menu" class="nav-item dropdown submenu"><a class="nav-link" href="https://blog.sendsafely.com">Blog </a></li>
+                </ul>
+
+                <a class="btn_get btn_hover" href="/auth/"><nobr>Log In</nobr></a>
+                <a style="padding-right:15px; padding-left:15px; margin-left:15px; color:#ffffff; background: #28a745; border-color:#28a745;" class="ss-demo-button btn_get btn_hover"><span class="d-lg-none d-xl-block"><nobr>Request Demo</nobr></span><span class="d-none d-lg-block d-xl-none">Demo</span></a>
+                <br class=".d-block .d-sm-none"><br class=".d-block .d-sm-none">
+            </div>
+
+        </div>
+    </nav>
+</header>
+<section class="agency_featured_area sec_pad mt-3 bg-globe">
+    <div class="container">
+        <div class="row sec_title text-center mb_70">
+            <div class="col">
+                <h1 class="f_size_30 f_600 t_color3 l_height40">Partner Programs</h1>
+                <p class="f_400 f_size_16">SendSafely global partner network</p>
+                <p class="lead mt-5">
+                    We’re building a <strong>global partner network</strong>.
+                </p>
+                <p class="lead">
+                    Want to offer <strong>secure workflows</strong> to your customers?
+                </p>
+                <p class="lead">
+                    Contact us about <strong>becoming a partner</strong>.
+                </p>
+                <p class="lead">
+                    <a href="#" class="ss-demo-button btn_get btn_hover">Register a Deal</a>
+                </p>
+            </div>
+        </div>
+        <div class="row app_service_info">
+            <div style="padding: 15px" class="col-xl-4 col-lg-12">
+                <div data-click-target="/email-security/" class="app_service_item" style="height: 100%">
+                    <i class="ti-email app_icon four"></i>
+                    <h2 style="margin-top: 20px" class="f_p f_size_18 f_600 t_color3 mb-30">Managed Service Providers</h2>
+                    <p class="f_400 f_size_15 mb-30">Earn commission while deploying a suite of secure file transfer and collaboration solutions.</p>
+                    <br><br>
+                </div>
+                <div style="margin-left:50px; margin-top:-100px"><a href="/email-security/" class="learn_btn_two c_violet">Learn More <i class="ti-arrow-right"></i></a></div>
+            </div>
+            <div style="padding: 15px" class="col-xl-4 col-lg-12">
+                <div data-click-target="/help-desk-integrations/" class="app_service_item" style="height: 100%">
+                    <i class="ti-support app_icon two"></i>
+                    <h2 style="margin-top: 20px" class="f_p f_size_18 f_600 t_color3 mb-30">Technical Partners</h2>
+                    <p class="f_400 f_size_15 mb-30">Gain the tools and resources to implement our secure solutions for your customers.</p>
+                    <br><br>
+                </div>
+                <div style="margin-left:50px; margin-top:-100px"><a href="/help-desk-integrations/" class="learn_btn_two c_violet">Learn More <i class="ti-arrow-right"></i></a></div>
+            </div>
+            <div style="padding: 15px" class="col-xl-4 col-lg-12">
+                <div data-click-target="/secure-file-transfer/" class="app_service_item" style="height: 100%">
+                    <i class="ti-loop app_icon one"></i>
+                    <h2 style="margin-top: 20px" class="f_p f_size_18 f_600 t_color3 mb-30">Industry Partners</h2>
+                    <p class="f_400 f_size_15 mb-30">Integrate our secure file transfer and collaboration solutions into your enterprise-level workflows.</p>
+                    <br><br>
+                </div>
+                <div style="margin-left:50px; margin-top:-100px"><a href="/secure-file-transfer/" class="learn_btn_two c_violet">Learn More <i class="ti-arrow-right"></i></a></div>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>
