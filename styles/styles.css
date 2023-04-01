@@ -399,6 +399,7 @@ a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 
 .btn_get {
     font: 500 14px/47px "Poppins", sans-serif;
+    background-color: white;
     color: #e76f34;
     border: 2px solid #e76f34;
     border-radius: 4px;
